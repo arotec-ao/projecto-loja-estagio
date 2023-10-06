@@ -5,8 +5,13 @@
 <img src="img/plano.jpeg">
 
 <p>
-
-Lorem flewnfvkr, mergfmver gkl4rtg4tklrgn54kltvk4trk54tglkbtrgfbtrgkt54rgklt4mbgkl46khtbk y5tklgny5kt hj5k6smhkbmtrsklfdb klfr. trbref ! 
+Descricao geral da home page 
 
 </p>
 
+<hr>
+
+# Funções da Home page #
+<p>
+Descreva as funcoes da home page aqui
+</p>
