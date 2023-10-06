@@ -9,9 +9,10 @@ Descricao geral da home page
 
 </p>
 
-<hr>
 
 # Funções da Home page #
 <p>
 Descreva as funcoes da home page aqui
 </p>
+
+<hr>
