@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border border-box;
+}
+.livre
+{
+padding: 10px 30px;
+width: 100%;
+background: #010f1c;
+display: flex;
+}
+.livre .icone
+{
+color: #f3b123;
+font-size: 32px;
+}
+.livre p
+{
+margin-left: 10px;
+color:white;
+margin-top: 8px;
+font-size: 14px;
+font-weight: 600;
+}
+.main_header
+{
+padding: 30px 40px;
+width: 100%;
+border-bottom: 1px solid #010f1c;
+height: 120px;
+}
+.main_header .container .logo img
+{
+    margin-top: -20px;
+}
+.main_header .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main_header .container .caixa_pesquisa
+{
+    margin-right: 30px;
+}
+.main_header .container .caixa_pesquisa input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #010f1c;
+   border-top-left-radius:5px;
+   border-bottom-left-radius: 5px;
+}
+.main_header .container .caixa_pesquisa button
+{
+    border:3px solid #0989ff;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #0989ff;
+    color:white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main_header .container .icone
+{
+    display: flex;
+    margin-right: 50px;
+}
+.main_header .container .icone .conta
+{
+    display: flex;
+    margin-block-end: 30px;
+}
+.main_header .container .icone .conta .icone_usuario
+{
+    margin-right: 10px;
+    font-size:22px;
+    color:#010f1c;
+    cursor: pointer;
+}
+.main_header .container .icone .conta p
+{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.main_header .container .icone .icone1{
+    display: flex;
+}
+.main_header .container .icone .icone1 .link
+{
+    margin-right: 5px;
+    font-size: 24px;
+    cursor:pointer;
+    color: #0989ff;
+}
+.header
+{
+    width: 100%;
+    padding:20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .container
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .container .nav ul
+{
+display: flex;
+}
+.header .container .nav ul li
+{
+    margin-left: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.header .container .nav ul li .link
+{
+    text-decoration: none;
+    color:#010f1c;
+    transition: 0.5s;
+}
+.header .container .nav ul li .link:hover
+{
+color: #0989ff;
+}
+.header .container .loginout
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header .container .loginout button
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
